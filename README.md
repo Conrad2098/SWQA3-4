@@ -1,2 +1,2 @@
-# SWQA3-4
-Repo for Software Testing and Quality Analysis Assignments 3 &amp; 4
+# SWQA2020
+Repo for Software Quality Analysis
