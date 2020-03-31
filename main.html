@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="./Assignment3-4.js"></script>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body style="text-align: center;">
+        
+        <h1>Welcome to the Mostly Useless Calculator™</h1>
+
+        <h3>BMI Calculator</h3>
+        <form>
+
+            <label for="height" style="display:inline;">Height (in inches):</label>
+            <input type="number" id="height" min="0" max="120" style="height: 15px;"><p style="display: inline;"> in.</p><br><br>
+            <label for="weight" style="display:inline;">Weight (in pounds):</label>
+            <input type="number" id="weight" min="0" max="1000" style="height: 15px;"><p style="display: inline;"> lbs.</p><br><br>
+
+        </form>
+
+        <label for="bmi" style="display: inline;">BMI: </label>
+        <div id="bmi" style="display: inline;"></div><br><br>
+
+        <button onclick="bmi()">BMI</button><br><br><br><br>
+
+        <h3>Retirement Calculator</h3>
+        <p></p>
+
+        <form>
+
+            <label for="age" style="display: inline;">Current Age: </label>
+            <input type="number" id="age" min="14" max="99" style="height: 15px;"><p style="display: inline;"> y/o</p><br><br>
+            <label for="salary" style="display: inline;">Annual Salary: </label>
+            <p style="display: inline;">$ </p><input type="number" id="salary" min="1" max="1850000000" style="height: 15px;"><br><br>
+            <label for="saved" style="display: inline;">Percentage Saved: </label>
+            <input type="number" id="saved" min="1" max="100" style="height: 15px;"><p style="display: inline;"> %</p><br><br>
+            <label for="goal" style="display: inline;">Savings Goal:</label>
+            <p style="display: inline;">$ </p><input type="number" id="goal" min="1" style="height: 15px;"><br><br>
+
+        </form>
+
+        <label for="finAge" style="display: inline;">You would be: </label>
+        <div id="finAge" style="display: inline;"></div><br><br>
+
+        <button onclick="retire()">Retire</button>
+    </body>
+</html>
